@@ -1,14 +1,20 @@
-import preprocess from "svelte-preprocess";
+import { mdsvex } from 'mdsvex';
+import mdsvexConfig from './mdsvex.config.js';
+import preprocess from 'svelte-preprocess';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-    kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
+
+	kit: {
 		target: '#svelte'
 	},
 
-    preprocess: [preprocess({
-        "postcss": true
-    })]
+	preprocess: [
+		preprocess({
+			postcss: true
+		}),
+		mdsvex(mdsvexConfig)
+	]
 };
 
 export default config;
