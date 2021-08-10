@@ -1,2 +1,10 @@
-<script>import "../app.postcss";</script>
-<slot></slot>
+<script>
+	import Navbar from '$lib/components/Navbar.svelte';
+	import '../app.postcss';
+</script>
+
+<Navbar />
+
+<main>
+	<slot />
+</main>
