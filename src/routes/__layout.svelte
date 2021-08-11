@@ -1,9 +1,13 @@
 <script>
 	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import '../app.postcss';
 </script>
 
-<main class="flex flex-col">
-	<Navbar />
-	<slot class="flex-1" />
+<Navbar />
+
+<main>
+	<slot />
 </main>
+
+<Footer />
