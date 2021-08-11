@@ -3,8 +3,7 @@
 	import '../app.postcss';
 </script>
 
-<Navbar />
-
-<main>
-	<slot />
+<main class="flex flex-col">
+	<Navbar />
+	<slot class="flex-1" />
 </main>

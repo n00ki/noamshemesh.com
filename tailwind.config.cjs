@@ -2,7 +2,11 @@ const config = {
 	mode: 'jit',
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				poppins: ['poppins', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 };

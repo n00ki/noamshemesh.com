@@ -1,9 +1,8 @@
 <header>
-	<nav class="flex justify-betweenc items-end">
+	<nav class="flex my-4 justify-between items-center">
 		<a href="/">
-			<h1 class="flex-1 font-black text-5xl">noam.</h1>
+			<h1 class="flex-1 text-4xl font-bold">noam.</h1>
 		</a>
-		<a href="/about" class="btn-nav">About</a>
-		<a href="/blog" class="btn-nav">Blog</a>
+		<a href="/blog">Blog</a>
 	</nav>
 </header>
