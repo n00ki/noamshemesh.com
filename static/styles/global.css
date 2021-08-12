@@ -1,3 +1,3 @@
-.btn-nav {
-	@apply px-2 text-xl;
+.nav-btn {
+	@apply px-2 text-lg;
 }
