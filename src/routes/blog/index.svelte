@@ -15,9 +15,15 @@
 </script>
 
 <script>
+	import { capitalizeText, timeAgoInWords } from '$lib/helpers';
 	export let posts;
 </script>
 
 {#each posts as post}
-	<h1>{post.title}</h1>
+	{#if !post.draft}
+		<a href="/blog/{post.slug}">
+			<h1>{capitalizeText(post.title)}</h1>
+			<h3>{timeAgoInWords(post.published_at)}</h3>
+		</a>
+	{/if}
 {/each}

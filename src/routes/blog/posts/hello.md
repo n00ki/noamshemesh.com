@@ -1,7 +1,8 @@
 ---
 title: hello
 slug: hello
-published: true
+published_at: 12-08-2021
+draft: false
 ---
 
 # Hello
