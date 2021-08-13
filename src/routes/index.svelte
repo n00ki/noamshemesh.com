@@ -16,6 +16,14 @@
 				</span>
 			</a>, or simply say <strong>Hi!</strong>
 		</p>
+
+		<span class="w-full py-8 inline-flex space-x-4 justify-center">
+			<i class="fas fa-envelope-square" />
+			<i class="fab fa-twitter-square" />
+			<i class="fab fa-facebook-square" />
+			<i class="fab fa-instagram-square" />
+			<i class="fab fa-github-square" />
+		</span>
 	</section>
 
 	<section class="flex-1">
