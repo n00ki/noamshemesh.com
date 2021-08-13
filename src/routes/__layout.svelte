@@ -3,8 +3,8 @@
 	import '../app.postcss';
 </script>
 
-<Navbar />
+<main class="flex flex-col container mx-auto font-poppins">
+	<Navbar />
 
-<main>
 	<slot />
 </main>

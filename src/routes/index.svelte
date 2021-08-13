@@ -1,7 +1,7 @@
-<div class="flex h-4/5">
-	<div class="flex-1 flex flex-col text-center justify-center">
-		<h1 class="text-4xl font-extrabold">Hi, I'm Noam! &#x1F44B</h1>
-		<p class="">
+<div class="flex max-h-full">
+	<section class="flex-1 flex flex-col text-center justify-center">
+		<h1 class="text-5xl font-extrabold py-4">Hi, I'm Noam! &#x1F44B</h1>
+		<p class="text-lg">
 			Music Producer, Sound Engineer & Programming Enthusiast based in <strong>Tel Aviv</strong>.
 			Checkout my recent
 			<a href="/projects">
@@ -16,12 +16,12 @@
 				</span>
 			</a>, or simply say <strong>Hi!</strong>
 		</p>
-	</div>
+	</section>
 
-	<div class="flex-1">
+	<section class="flex-1">
 		<img
 			src="https://res.cloudinary.com/nshemesh/image/upload/v1628635520/noamshemesh.com/noam.png"
 			alt="noam"
 		/>
-	</div>
+	</section>
 </div>
