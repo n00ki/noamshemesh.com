@@ -1,10 +1,11 @@
 <script>
+	import Meta from '$lib/components/Meta.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import '../app.postcss';
 </script>
 
 <svelte:head>
-	<!-- head content -->
+	<Meta />
 </svelte:head>
 
 <main class="flex flex-col container mx-auto font-poppins">
