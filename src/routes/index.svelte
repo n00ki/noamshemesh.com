@@ -17,12 +17,22 @@
 			</a>, or simply say <strong>Hi!</strong>
 		</p>
 
-		<span class="w-full py-8 inline-flex space-x-4 justify-center">
-			<i class="fas fa-envelope-square" />
-			<i class="fab fa-twitter-square" />
-			<i class="fab fa-facebook-square" />
-			<i class="fab fa-instagram-square" />
-			<i class="fab fa-github-square" />
+		<span class="w-full py-8 inline-flex space-x-4 text-2xl justify-center">
+			<a href="mailto:noams@hey.com">
+				<i class="bi bi-envelope-fill" />
+			</a>
+			<a href="https://twitter.com/shemeshno" target="_blank">
+				<i class="bi bi-twitter" />
+			</a>
+			<a href="https://www.facebook.com/noam.shemesh.526" target="_blank">
+				<i class="bi bi-facebook" />
+			</a>
+			<a href="https://www.instagram.com/noamshemesh/" target="_blank">
+				<i class="bi bi-instagram" />
+			</a>
+			<a href="https://github.com/n00ki" target="_blank">
+				<i class="bi bi-github" />
+			</a>
 		</span>
 	</section>
 
