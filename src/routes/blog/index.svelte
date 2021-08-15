@@ -15,10 +15,13 @@
 </script>
 
 <script>
-	import Seo from '$lib/components/Seo.svelte';
+	// Helpers
 	import { setPageTitle, capitalizeText, timeAgoInWords } from '$lib/helpers';
 
-	export let title = setPageTitle('Blog');
+	// Components
+	import Seo from '$lib/components/Seo.svelte';
+
+	let title = setPageTitle('Blog');
 	export let posts;
 </script>
 

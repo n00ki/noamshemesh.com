@@ -1,8 +1,11 @@
 <script>
-	import Seo from '$lib/components/Seo.svelte';
+	// Helpers
 	import { setPageTitle } from '$lib/helpers';
 
-	export let title = setPageTitle();
+	// Components
+	import Seo from '$lib/components/Seo.svelte';
+
+	let title = setPageTitle();
 </script>
 
 <svelte:head>

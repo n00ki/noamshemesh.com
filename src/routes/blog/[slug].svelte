@@ -14,11 +14,19 @@
 </script>
 
 <script>
-	import { capitalizeText } from '$lib/helpers';
+	// Helpers
+	import { setPageTitle, capitalizeText } from '$lib/helpers';
+
+	// Components
+	import Seo from '$lib/components/Seo.svelte';
 
 	export let Post;
 	export let postMeta;
+
+	let title = setPageTitle(postMeta.title);
 </script>
+
+<Seo {title} />
 
 <h1>{capitalizeText(postMeta.title)}</h1>
 
