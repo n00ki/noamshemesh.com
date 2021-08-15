@@ -23,7 +23,7 @@
 	export let Post;
 	export let postMeta;
 
-	let title = setPageTitle(postMeta.title);
+	let title = setPageTitle(capitalizeText(postMeta.title));
 </script>
 
 <Seo {title} />
