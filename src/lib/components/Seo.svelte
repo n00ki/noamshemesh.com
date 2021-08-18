@@ -1,5 +1,5 @@
 <script>
-	export let title;
+	export let title = 'Noam Shemesh';
 	export let description = 'Music Producer, Sound Engineer & Tech Enthusiast based in Tel Aviv';
 	export let imageUrl =
 		'https://res.cloudinary.com/nshemesh/image/upload/v1628635520/noamshemesh.com/noam.png';

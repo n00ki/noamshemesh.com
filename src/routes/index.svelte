@@ -1,16 +1,7 @@
 <script>
 	// Helpers
 	import { setPageTitle } from '$lib/helpers';
-
-	// Components
-	import Seo from '$lib/components/Seo.svelte';
-
-	let title = setPageTitle();
 </script>
-
-<svelte:head>
-	<Seo {title} />
-</svelte:head>
 
 <div class="flex max-h-full">
 	<section class="flex-1 flex flex-col text-center justify-center">

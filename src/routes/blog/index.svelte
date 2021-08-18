@@ -16,18 +16,13 @@
 
 <script>
 	// Helpers
-	import { setPageTitle, capitalizeText, timeAgoInWords } from '$lib/helpers';
+	import { capitalizeText, timeAgoInWords } from '$lib/helpers';
 
 	// Components
-	import Seo from '$lib/components/Seo.svelte';
 
-	let title = setPageTitle('Blog');
+	// $: title = setPageTitle('Blog');
 	export let posts;
 </script>
-
-<svelte:head>
-	<Seo {title} />
-</svelte:head>
 
 {#each posts as post}
 	{#if !post.draft}
