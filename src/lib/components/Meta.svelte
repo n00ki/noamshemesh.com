@@ -19,7 +19,7 @@
 <meta property="og:image" content={imageUrl} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content={imageUrl} />
+<meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://noamshemesh.com/" />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
