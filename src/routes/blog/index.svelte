@@ -19,8 +19,8 @@
 	import { capitalizeText, timeAgoInWords } from '$lib/helpers';
 
 	// Components
+	// import Meta from '$lib/components/Meta.svelte';
 
-	// $: title = setPageTitle('Blog');
 	export let posts;
 </script>
 
