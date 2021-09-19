@@ -16,7 +16,7 @@
 
 <script>
 	// Helpers
-	import { capitalizeText, timeAgoInWords, setPageTitle } from '$lib/helpers';
+	import { capitalizeText, timeAgoInWords } from '$lib/helpers';
 
 	// Components
 	import Meta from '$lib/components/Meta.svelte';
