@@ -6,7 +6,7 @@
 
 <Meta />
 
-<main class="flex flex-col container mx-auto font-poppins">
+<main class="flex flex-col container mx-auto max-h-screen font-poppins">
 	<Navbar />
 
 	<slot />

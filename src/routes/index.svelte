@@ -5,7 +5,7 @@
 
 <Meta pageTitle="Home" />
 
-<div class="flex max-h-full">
+<div class="flex justify-evenly xl:px-24">
 	<section class="flex-1 flex flex-col text-center justify-center">
 		<h1 class="text-5xl font-extrabold py-4">Hi, I'm Noam! &#x1F44B</h1>
 		<p class="text-lg">
@@ -45,6 +45,7 @@
 
 	<section class="flex-1">
 		<img
+			class="p-16"
 			src="https://res.cloudinary.com/nshemesh/image/upload/v1628635520/noamshemesh.com/noam.png"
 			alt="noam"
 		/>
