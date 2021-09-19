@@ -4,9 +4,7 @@
 	import '../app.postcss';
 </script>
 
-<svelte:head>
-	<Meta />
-</svelte:head>
+<Meta />
 
 <main class="flex flex-col container mx-auto font-poppins">
 	<Navbar />

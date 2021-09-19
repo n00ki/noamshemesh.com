@@ -18,12 +18,15 @@
 	import { capitalizeText } from '$lib/helpers';
 
 	// Components
+	import Meta from '$lib/components/Meta.svelte';
 
 	export let Post;
 	export let postMeta;
 
 	// $: title = setPageTitle(capitalizeText(postMeta.title));
 </script>
+
+<Meta pageTitle={postMeta.title} />
 
 <h1>{capitalizeText(postMeta.title)}</h1>
 

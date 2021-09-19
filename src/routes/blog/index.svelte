@@ -16,13 +16,15 @@
 
 <script>
 	// Helpers
-	import { capitalizeText, timeAgoInWords } from '$lib/helpers';
+	import { capitalizeText, timeAgoInWords, setPageTitle } from '$lib/helpers';
 
 	// Components
-	// import Meta from '$lib/components/Meta.svelte';
+	import Meta from '$lib/components/Meta.svelte';
 
 	export let posts;
 </script>
+
+<Meta pageTitle={'Blog'} />
 
 {#each posts as post}
 	{#if !post.draft}
