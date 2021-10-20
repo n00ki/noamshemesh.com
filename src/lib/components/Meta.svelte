@@ -1,10 +1,15 @@
 <script>
-	$: title = pageTitle ? `${pageTitle} | Noam Shemesh` : 'Noam Shemesh';
-	let description = 'Music Producer, Sound Engineer & Tech Enthusiast based in Tel Aviv';
-	let imageUrl =
-		'https://res.cloudinary.com/nshemesh/image/upload/v1628635520/noamshemesh.com/noam.png';
+	import { meta } from '../stores.js';
 
 	export let pageTitle;
+
+	let { title, description, imageUrl } = $meta;
+
+	if (pageTitle) {
+		title = `${pageTitle} | ${title}`;
+	}
+
+	// $: title = pageTitle ? `${pageTitle} | Noam Shemesh` : 'Noam Shemesh';
 </script>
 
 <svelte:head>

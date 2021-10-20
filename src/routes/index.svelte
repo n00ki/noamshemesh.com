@@ -3,7 +3,9 @@
 	import Meta from '$lib/components/Meta.svelte';
 </script>
 
-<Meta pageTitle="Home" />
+<svelte:head>
+	<Meta pageTitle="Home" />
+</svelte:head>
 
 <div class="flex justify-evenly xl:px-24">
 	<section class="flex-1 flex flex-col text-center justify-center">

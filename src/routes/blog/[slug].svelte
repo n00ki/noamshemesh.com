@@ -22,12 +22,13 @@
 
 	export let Post;
 	export let postMeta;
-
-	// $: title = setPageTitle(capitalizeText(postMeta.title));
+	export let title = capitalizeText(postMeta.title);
 </script>
 
-<Meta pageTitle={postMeta.title} />
+<svelte:head>
+	<Meta pageTitle={title} />
+</svelte:head>
 
-<h1>{capitalizeText(postMeta.title)}</h1>
+<h1>{title}</h1>
 
 <Post />
