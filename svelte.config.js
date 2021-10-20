@@ -18,8 +18,7 @@ const config = {
 
 	preprocess: [
 		preprocess({
-			postcss: true,
-			sourceMap: true
+			postcss: true
 		}),
 		mdsvex(mdsvexConfig)
 	]
