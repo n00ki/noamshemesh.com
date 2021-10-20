@@ -1,11 +1,9 @@
 <script>
 	// Components
-	import Meta from '$lib/components/Meta.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 </script>
 
-<svelte:head>
-	<Meta pageTitle="Home" />
-</svelte:head>
+<SEO pageTitle="Home" />
 
 <div class="flex justify-evenly xl:px-24">
 	<section class="flex-1 flex flex-col text-center justify-center">

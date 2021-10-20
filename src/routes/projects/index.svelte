@@ -1,10 +1,8 @@
 <script>
 	// Components
-	import Meta from '$lib/components/Meta.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 </script>
 
-<svelte:head>
-	<Meta pageTitle="Projects" />
-</svelte:head>
+<SEO pageTitle="Projects" />
 
 <h1>Projects</h1>

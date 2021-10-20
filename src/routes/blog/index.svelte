@@ -19,12 +19,12 @@
 	import { capitalizeText, timeAgoInWords } from '$lib/helpers';
 
 	// Components
-	import Meta from '$lib/components/Meta.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 
 	export let posts;
 </script>
 
-<Meta pageTitle={'Blog'} />
+<SEO pageTitle={'Blog'} />
 
 {#each posts as post}
 	{#if !post.draft}

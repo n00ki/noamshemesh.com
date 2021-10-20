@@ -18,16 +18,14 @@
 	import { capitalizeText } from '$lib/helpers';
 
 	// Components
-	import Meta from '$lib/components/Meta.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 
 	export let Post;
 	export let postMeta;
 	export let title = capitalizeText(postMeta.title);
 </script>
 
-<svelte:head>
-	<Meta pageTitle={title} />
-</svelte:head>
+<SEO pageTitle={title} />
 
 <h1>{title}</h1>
 
