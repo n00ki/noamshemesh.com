@@ -5,23 +5,12 @@
 
 <SEO pageTitle="Home" />
 
-<div class="flex justify-evenly xl:px-24">
+<div class="flex flex-col-reverse px-2 lg:flex-row lg:justify-evenly 2xl:px-24">
 	<section class="flex-1 flex flex-col text-center justify-center">
-		<h1 class="text-5xl font-extrabold py-4">Hi, I'm Noam! &#x1F44B</h1>
-		<p class="text-lg">
+		<h1 class="text-4xl pb-3 font-extrabold sm:text-5xl sm:py-4">Hi, I'm Noam! &#x1F44B</h1>
+		<p class="text-lg leading-6 px-1 sm:text-xl sm:leading-7 sm:px-0">
 			Music Producer, Sound Engineer & Programming Enthusiast based in <strong>Tel Aviv</strong>.
-			Checkout my recent
-			<a href="/projects">
-				<span class="inline-flex items-center px-3 py-0.5 rounded-lg bg-yellow-100 text-yellow-600">
-					Projects
-				</span>
-			</a>
-			, pick my brain in the
-			<a href="/blog">
-				<span class="inline-flex items-center px-3 py-0.5 rounded-lg bg-pink-100 text-pink-800">
-					Blog
-				</span>
-			</a>, or simply say <strong>Hi!</strong>
+			Welcome to my little corner of the internet.
 		</p>
 
 		<span class="w-full py-8 inline-flex space-x-4 text-2xl justify-center">

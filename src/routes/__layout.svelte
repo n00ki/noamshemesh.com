@@ -6,7 +6,7 @@
 
 <SEO />
 
-<main class="container mx-auto text-gray-100 font-poppins">
+<main class="container mx-auto text-gray-50 font-poppins">
 	<Navbar />
 	<slot />
 </main>
