@@ -8,5 +8,7 @@
 
 <main class="container mx-auto text-gray-50 font-poppins">
 	<Navbar />
-	<slot />
+	<div>
+		<slot />
+	</div>
 </main>
