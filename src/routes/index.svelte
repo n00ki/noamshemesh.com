@@ -9,7 +9,7 @@
 	<section class="flex-1 flex flex-col text-center justify-center">
 		<h1 class="text-4xl pb-3 font-extrabold sm:text-5xl sm:py-4">Hi, I'm Noam! &#x1F44B</h1>
 		<p class="text-lg leading-6 px-1 sm:text-xl sm:leading-7 sm:px-0">
-			Music Producer, Web Developer & Tech Enthusiast based in <strong>Tel Aviv</strong>. Welcome to
+			Music Producer, Web Developer & Life Enthusiast based in <strong>Tel Aviv</strong>. Welcome to
 			my little corner of the internet.
 		</p>
 
