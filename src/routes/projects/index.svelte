@@ -32,10 +32,21 @@
 
 <SEO pageTitle={'Projects'} />
 
-{#each projectsMeta as project}
-	{project.title}
-{/each}
-
-{#each projectsContent as Project}
-	<Project />
-{/each}
+<section class="grid grid-cols-3 gap-4">
+	{#each projectsMeta as project}
+		<a href={project.link} target="blank">
+			<div
+				id="project-card"
+				class="h-80 bg-gray-50 text-gray-800 rounded-md shadow-lg overflow-hidden"
+			>
+				<img src={project.imageUrl} alt={project.title} class="h-1/2 w-full" />
+				<h2>
+					{project.title}
+				</h2>
+				<p>
+					{project.description}
+				</p>
+			</div>
+		</a>
+	{/each}
+</section>
