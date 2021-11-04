@@ -12,6 +12,7 @@
 				break;
 			case 'javascript':
 			case 'sidekiq':
+			case 'ableton live':
 				return 'bg-yellow-400';
 				break;
 			case 'stimulus':
@@ -19,10 +20,13 @@
 			case 'studio one':
 				return 'bg-blue-400';
 				break;
-			case 'figma':
+			case 'render':
 				return 'bg-green-400';
 				break;
 			case 'heroku':
+				return 'bg-indigo-400';
+				break;
+			case 'figma':
 				return 'bg-purple-400';
 				break;
 			default:
@@ -31,14 +35,16 @@
 	};
 </script>
 
-<p class="text-gray-900">
-	{#each tags as tag}
-		<span
-			class="inline-flex items-center px-2 py-1 m-1 ml-0 rounded text-xs font-medium {tagColorClass(
-				tag
-			)}"
-		>
-			{tag}
-		</span>
-	{/each}
-</p>
+{#if tags}
+	<p class="text-gray-900">
+		{#each tags as tag}
+			<span
+				class="inline-flex items-center px-2 py-1 m-1 ml-0 rounded text-xs lowercase font-medium {tagColorClass(
+					tag
+				)}"
+			>
+				{tag}
+			</span>
+		{/each}
+	</p>
+{/if}
