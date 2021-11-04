@@ -1,4 +1,5 @@
 <script>
+	// Props
 	export let imageUrl;
 	export let imageAlt;
 </script>

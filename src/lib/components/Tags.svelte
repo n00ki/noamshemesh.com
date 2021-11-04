@@ -1,4 +1,5 @@
 <script>
+	// Props
 	export let tags;
 
 	let tagColorClass = function (tag) {
@@ -16,11 +17,11 @@
 				return 'bg-yellow-400';
 				break;
 			case 'stimulus':
-			case 'supabase':
 			case 'studio one':
 				return 'bg-blue-400';
 				break;
 			case 'render':
+			case 'supabase':
 				return 'bg-green-400';
 				break;
 			case 'heroku':

@@ -1,6 +1,8 @@
 <script>
+	// Stores
 	import { meta } from '../stores.js';
 
+	// Props
 	export let pageTitle;
 
 	let { title, description, imageUrl } = $meta;
@@ -8,8 +10,6 @@
 	if (pageTitle) {
 		title = `${pageTitle} | ${title}`;
 	}
-
-	// $: title = pageTitle ? `${pageTitle} | Noam Shemesh` : 'Noam Shemesh';
 </script>
 
 <svelte:head>
