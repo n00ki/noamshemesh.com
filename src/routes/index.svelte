@@ -3,7 +3,7 @@
 	import SEO from '$lib/components/SEO.svelte';
 </script>
 
-<SEO pageTitle="Home" />
+<SEO />
 
 <div class="flex flex-col-reverse px-2 lg:flex-row lg:justify-evenly 2xl:px-24">
 	<section class="flex-1 flex flex-col text-center justify-center">
