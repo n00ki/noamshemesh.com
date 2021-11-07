@@ -14,7 +14,7 @@
 			Checkout my recent
 			<a href="/projects">
 				<span
-					class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-pink-700 to-indigo-500 hover:bg-gradient-to-r hover:from-indigo-600 hover:via-pink-700 hover:to-pink-500"
+					class="py-0.5 px-1 rounded-md font-semibold tracking-normal shadow-xl bg-gradient-to-br from-pink-600 to-indigo-600"
 					>Projects</span
 				></a
 			>
