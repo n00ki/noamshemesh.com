@@ -14,7 +14,7 @@
 			Checkout my recent
 			<a href="/projects">
 				<button
-					class="bg-clip-text text-transparent tracking-normal bg-gradient-to-br from-pink-600  to-indigo-600"
+					class="bg-clip-text text-transparent tracking-normal bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
 					>Projects</button
 				></a
 			>
@@ -23,22 +23,34 @@
 
 		<span class="w-full py-8 inline-flex space-x-4 text-2xl justify-center">
 			<a href="mailto:noams@hey.com">
-				<i class="bi bi-envelope-fill transform ease-in-out duration-500 hover:text-pink-600" />
+				<i
+					class="bi bi-envelope-fill transform ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
+				/>
 			</a>
 			<a href="https://www.linkedin.com/in/noam-shemesh-a57931186/" target="_blank">
-				<i class="bi bi-linkedin transform ease-in-out duration-500 hover:text-pink-600" />
+				<i
+					class="bi bi-linkedin transform ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
+				/>
 			</a>
 			<a href="https://twitter.com/shemeshno" target="_blank">
-				<i class="bi bi-twitter transform ease-in-out duration-500 hover:text-pink-600" />
+				<i
+					class="bi bi-twitter transform ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
+				/>
 			</a>
 			<a href="https://www.facebook.com/noam.shemesh.526" target="_blank">
-				<i class="bi bi-facebook transform ease-in-out duration-500 hover:text-pink-600" />
+				<i
+					class="bi bi-facebook transform ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
+				/>
 			</a>
 			<a href="https://www.instagram.com/noamshemesh/" target="_blank">
-				<i class="bi bi-instagram transform ease-in-out duration-500 hover:text-pink-600" />
+				<i
+					class="bi bi-instagram transform ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
+				/>
 			</a>
 			<a href="https://github.com/n00ki" target="_blank">
-				<i class="bi bi-github transform ease-in-out duration-500 hover:text-pink-600" />
+				<i
+					class="bi bi-github transform ease-in-out duration-500 hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-br from-pink-500 via-pink-700 to-indigo-500"
+				/>
 			</a>
 		</span>
 	</section>
