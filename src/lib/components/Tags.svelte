@@ -32,7 +32,7 @@
 				return 'bg-purple-400';
 				break;
 			default:
-				return 'bg-gray-100';
+				return 'bg-gray-200';
 		}
 	};
 </script>
