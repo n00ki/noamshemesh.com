@@ -22,6 +22,7 @@
 				break;
 			case 'render':
 			case 'supabase':
+			case 'cloudinary':
 				return 'bg-green-400';
 				break;
 			case 'heroku':
