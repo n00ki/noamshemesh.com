@@ -1,33 +1,11 @@
 <script context="module">
 	export async function load({ page }) {
-		// const filter = page.query.get('filter');
-
 		const projects = import.meta.globEager(`../../lib/data/projects/*.md`);
 		const projectsList = Object.values(projects);
-
-		// const projectsContent = projectsList.map((project) => {
-		// 	return project.default;
-		// });
 
 		const projectsMeta = projectsList.map((project) => {
 			return project.metadata;
 		});
-
-		// const filteredProjectsMeta = projectsMeta.filter((project) => {
-		// 	if (filter) {
-		// 		switch (filter) {
-		// 			case 'dev':
-		// 			case 'music':
-		// 			case 'non-curricular':
-		// 				return project.type === filter;
-		// 				break;
-		// 			default:
-		// 				return projectsMeta;
-		// 		}
-		// 	} else {
-		// 		return projectsMeta;
-		// 	}
-		// });
 
 		return {
 			props: {
@@ -44,10 +22,6 @@
 
 	// Props
 	export let projectsMeta;
-	// export let filter;
-	// $: if (filter) {
-	// 	console.log(filter);
-	// }
 </script>
 
 <SEO pageTitle={'Projects'} />
