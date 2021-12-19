@@ -31,8 +31,7 @@
 
 		return {
 			props: {
-				projectsMeta,
-				filter
+				projectsMeta
 			}
 		};
 	}
@@ -45,10 +44,10 @@
 
 	// Props
 	export let projectsMeta;
-	export let filter;
-	$: if (filter) {
-		console.log(filter);
-	}
+	// export let filter;
+	// $: if (filter) {
+	// 	console.log(filter);
+	// }
 </script>
 
 <SEO pageTitle={'Projects'} />
