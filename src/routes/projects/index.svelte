@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ page }) {
-		const filter = page.query.filter;
+		const filter = page.query.get('filter');
 		const projects = import.meta.globEager(`../../lib/data/projects/*.md`);
 		const projectsList = Object.values(projects);
 
