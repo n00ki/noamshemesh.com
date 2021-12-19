@@ -8,10 +8,19 @@
 			return project.metadata;
 		});
 
+		const filteredProjectsMeta = projectsMeta.filter((project) => {
+			if (filter) {
+				if (project.type === filter) {
+					return project;
+				}
+			} else {
+				return project;
+			}
+		});
+
 		return {
 			props: {
-				filter,
-				projectsMeta
+				filteredProjectsMeta
 			}
 		};
 	}
@@ -23,16 +32,13 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 
 	// Props
-	export let filter;
-	export let projectsMeta;
-
-	console.log(filter);
+	export let filteredProjectsMeta;
 </script>
 
 <SEO pageTitle={'Projects'} />
 
 <section class="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 pb-4">
-	{#each projectsMeta as project}
+	{#each filteredProjectsMeta as project}
 		<ProjectCard
 			type={project.type}
 			title={project.title}
