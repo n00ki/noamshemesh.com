@@ -1,5 +1,6 @@
 <script context="module">
 	export async function load({ page }) {
+		const filter = page.query.filter;
 		const projects = import.meta.globEager(`../../lib/data/projects/*.md`);
 		const projectsList = Object.values(projects);
 
@@ -9,6 +10,7 @@
 
 		return {
 			props: {
+				filter,
 				projectsMeta
 			}
 		};
@@ -21,7 +23,10 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 
 	// Props
+	export let filter;
 	export let projectsMeta;
+
+	console.log(filter);
 </script>
 
 <SEO pageTitle={'Projects'} />
