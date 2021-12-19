@@ -13,25 +13,26 @@
 			return project.metadata;
 		});
 
-		const filteredProjectsMeta = projectsMeta.filter((project) => {
-			if (filter) {
-				switch (filter) {
-					case 'dev':
-					case 'music':
-					case 'non-curricular':
-						return project.type === filter;
-						break;
-					default:
-						return projectsMeta;
-				}
-			} else {
-				return projectsMeta;
-			}
-		});
+		// const filteredProjectsMeta = projectsMeta.filter((project) => {
+		// 	if (filter) {
+		// 		switch (filter) {
+		// 			case 'dev':
+		// 			case 'music':
+		// 			case 'non-curricular':
+		// 				return project.type === filter;
+		// 				break;
+		// 			default:
+		// 				return projectsMeta;
+		// 		}
+		// 	} else {
+		// 		return projectsMeta;
+		// 	}
+		// });
 
 		return {
 			props: {
-				filteredProjectsMeta
+				projectsMeta,
+				filter
 			}
 		};
 	}
@@ -43,13 +44,17 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 
 	// Props
-	export let filteredProjectsMeta;
+	export let projectsMeta;
+	export let filter;
+	$: if (filter) {
+		console.log(filter);
+	}
 </script>
 
 <SEO pageTitle={'Projects'} />
 
 <section class="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 pb-4">
-	{#each filteredProjectsMeta as project}
+	{#each projectsMeta as project}
 		<ProjectCard
 			type={project.type}
 			title={project.title}
