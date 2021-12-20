@@ -13,10 +13,12 @@
 
 <SEO />
 
-<main class="container px-2 mx-auto text-gray-50 font-poppins">
+<main class="container flex flex-col min-h-screen px-2 mx-auto text-gray-50 font-poppins">
 	<Navbar />
 
-	<PageTransition refresh={$page.path}>
-		<slot />
-	</PageTransition>
+	<div class="flex-1 flex flex-col justify-center">
+		<PageTransition refresh={$page.path}>
+			<slot />
+		</PageTransition>
+	</div>
 </main>
