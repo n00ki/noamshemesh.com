@@ -25,19 +25,19 @@
 			<a href="mailto:noams@hey.com">
 				<i class="bi bi-envelope-fill transform ease-in-out duration-500 hover:text-pink-500" />
 			</a>
-			<a href="https://www.linkedin.com/in/noam-shemesh-a57931186/" target="_blank">
+			<a rel="external" href="https://www.linkedin.com/in/noam-shemesh-a57931186/" target="_blank">
 				<i class="bi bi-linkedin transform ease-in-out duration-500 hover:text-pink-500" />
 			</a>
-			<a href="https://twitter.com/noam__shemesh" target="_blank">
+			<a rel="external" href="https://twitter.com/noam__shemesh" target="_blank">
 				<i class="bi bi-twitter transform ease-in-out duration-500 hover:text-pink-500" />
 			</a>
-			<a href="https://www.facebook.com/noam.shemesh.526" target="_blank">
+			<a rel="external" href="https://www.facebook.com/noam.shemesh.526" target="_blank">
 				<i class="bi bi-facebook transform ease-in-out duration-500 hover:text-pink-500" />
 			</a>
-			<a href="https://www.instagram.com/noamshemesh/" target="_blank">
+			<a rel="external" href="https://www.instagram.com/noamshemesh/" target="_blank">
 				<i class="bi bi-instagram transform ease-in-out duration-500 hover:text-pink-500" />
 			</a>
-			<a href="https://github.com/n00ki" target="_blank">
+			<a rel="external" href="https://github.com/n00ki" target="_blank">
 				<i class="bi bi-github transform ease-in-out duration-500 hover:text-pink-500" />
 			</a>
 		</span>
