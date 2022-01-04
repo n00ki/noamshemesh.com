@@ -74,7 +74,7 @@
 							</h2>
 							<div class="text-gray-700 mt-8">
 								Hate forms? Send me an <a href="mailto:noams@hey.com"
-									><label class="underline">email</label></a
+									><label class="underline cursor-pointer">email</label></a
 								> instead.
 							</div>
 						</div>
