@@ -1,4 +1,7 @@
-@import '../static/styles/global.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-btn {
+	@apply px-2 text-lg;
+}

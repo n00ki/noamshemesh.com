@@ -1,6 +1,6 @@
 <script>
 	// Styles
-	import '../app.postcss';
+	import '../app.css';
 
 	// Stores
 	import { page } from '$app/stores';
