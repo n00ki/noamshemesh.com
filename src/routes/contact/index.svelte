@@ -1,5 +1,9 @@
 <script>
 	import { goto } from '$app/navigation';
+
+	// Components
+	import SEO from '$lib/components/SEO.svelte';
+
 	let formStatus;
 	let formMessage;
 
@@ -41,6 +45,8 @@
 		}
 	}
 </script>
+
+<SEO pageTitle={'Contact'} />
 
 <div>
 	{#if formStatus == 'submitting'}
