@@ -4,4 +4,5 @@
 	</a>
 
 	<a href="/projects" class="nav-btn">Projects</a>
+	<a href="/contact" class="nav-btn">Contact</a>
 </header>
