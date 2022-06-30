@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
-	const DEFAULT_THEME = 'dark';
+	const DEFAULT_THEME = 'light';
 	let preferredTheme;
 
 	onMount(() => {
