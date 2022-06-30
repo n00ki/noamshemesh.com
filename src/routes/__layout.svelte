@@ -17,7 +17,7 @@
 	<Navbar />
 
 	<div class="flex-1 flex flex-col justify-center">
-		<PageTransition refresh={$page.path}>
+		<PageTransition refresh={$page.url.pathname}>
 			<slot />
 		</PageTransition>
 	</div>
