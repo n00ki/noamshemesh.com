@@ -8,13 +8,13 @@
 <div class="flex flex-col-reverse px-2 lg:flex-row lg:justify-evenly 2xl:px-24">
 	<section class="flex-1 flex flex-col text-center justify-center">
 		<h1 class="text-4xl pb-3 font-extrabold sm:text-5xl sm:py-4">Hi, I'm Noam! &#x1F44B</h1>
-		<p class="text-md leading-7 px-1 sm:leading-8 sm:px-0 md:text-xl">
-			Music Producer, Web Developer & Life Enthusiast based in <strong>Tel Aviv</strong>. <br />
+		<p class="text-md leading-7 px-1 sm:leading-8 sm:px-0 md:text-lg">
+			Music Producer, Web Developer & Life Enthusiast based in <strong>Israel</strong>. <br />
 			Welcome to my little corner of the internet. <br />
 			Checkout my recent
 			<a href="/projects">
 				<button
-					class="rounded-md shadow-md px-1 md:p-1 tracking-normal text-transparent transition ease duration-700 bg-gradient-to-br from-pink-600 to-pink-700 text-gray-100 md:hover:text-pink-600 md:hover:bg-gradient-to-b md:hover:from-gray-50 md:hover:to-gray-100"
+					class="rounded-md shadow-md px-1 md:p-1 tracking-normal text-transparent transition ease bg-gradient-to-br from-pink-600 to-pink-700 text-gray-100 md:hover:text-pink-600 md:hover:bg-gradient-to-b md:hover:from-gray-50 md:hover:to-gray-100"
 					>Projects</button
 				></a
 			>
