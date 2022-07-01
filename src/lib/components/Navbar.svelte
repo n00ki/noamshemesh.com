@@ -10,7 +10,9 @@
 	<a href="/projects" class="nav-btn">Projects</a>
 	<a href="/contact" class="nav-btn">Contact</a>
 
-	<div class="hidden px-2 text-gray-900 md:block">
+	<div
+		class="fixed bottom-4 left-4 rounded-full overflow-hidden text-gray-900 md:static md:rounded-none md:px-2"
+	>
 		<ThemeSelector />
 	</div>
 </header>
