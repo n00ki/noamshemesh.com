@@ -45,7 +45,7 @@
 
 	<section class="flex-1">
 		<img
-			class="p-16"
+			class="p-8"
 			src="https://res.cloudinary.com/nshemesh/image/upload/v1628635520/noamshemesh.com/noam.png"
 			alt="noam"
 		/>

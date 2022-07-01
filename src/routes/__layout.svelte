@@ -19,13 +19,13 @@
 
 <div
 	id="wrapper"
-	class="min-h-screen transition-all duration-300 ease-in-out dark:bg-gray-800 dark:text-gray-50 
-	{$localStorageDataReady ? 'bg-amber-100 opacity-100' : 'opacity-0'}"
+	class="text-slate-800 transition-all duration-300 ease-in-out dark:bg-gray-800 dark:text-gray-50 
+	{$localStorageDataReady ? 'bg-cyan-50 opacity-100' : 'opacity-0'}"
 >
-	<main class="container flex flex-col min-h-screen px-2 mx-auto font-poppins">
+	<main class="container min-h-screen flex flex-col px-2 mx-auto font-poppins">
 		<Navbar />
 
-		<div class="flex-1 flex flex-col justify-center">
+		<div class="flex-1 flex flex-col">
 			<PageTransition refresh={$page.url.pathname}>
 				<slot />
 			</PageTransition>

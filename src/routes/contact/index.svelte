@@ -48,7 +48,7 @@
 
 <SEO pageTitle={'Contact'} />
 
-<div>
+<div class="flex-1 flex flex-col justify-center">
 	{#if formStatus == 'submitting'}
 		<div class="text-center text-xl">
 			<p>Submitting...</p>
@@ -65,7 +65,7 @@
 		<div>
 			<form on:submit|preventDefault={handleSubmit}>
 				<div
-					class="max-w-screen-xl px-8 mx-4 py-16 bg-gray-100 text-gray-900 rounded-lg shadow-lg sm:mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
+					class="max-w-screen-xl px-8 mx-4 mb-2 py-16 bg-gray-100 text-gray-900 rounded-lg shadow-lg sm:mx-auto grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32"
 				>
 					<div class="flex flex-col justify-between">
 						<div>

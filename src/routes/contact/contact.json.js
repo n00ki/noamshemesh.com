@@ -1,7 +1,8 @@
-export const post = async (request) => {
-	const name = request.body.get('name');
-	const email = request.body.get('email');
-	const content = encodeURI(request.body.get('content')).replace(/%20/g, '+');
+export const post = async ({ request }) => {
+	const data = await request.formData();
+	const name = data.get('name');
+	const email = data.get('email');
+	const content = encodeURI(data.get('content')).replace(/%20/g, '+');
 
 	const googleFormID = '1FAIpQLSeV5HbmyAk6GdwbKygcVNRyuXkgy-nPnwuMp5ZMA4eeFMDhEA';
 	const googleFormBaseUrl = `https://docs.google.com/forms/d/e/${googleFormID}/formResponse?usp=pp_url`;
