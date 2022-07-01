@@ -19,9 +19,8 @@
 
 <div
 	id="wrapper"
-	class="min-h-screen bg-amber-100 transition-all duration-500 ease-in-out dark:bg-gray-800 dark:text-gray-50 {$localStorageDataReady
-		? 'opacity-100'
-		: 'opacity-0'}"
+	class="min-h-screen transition-all duration-300 ease-in-out dark:bg-gray-800 dark:text-gray-50 
+	{$localStorageDataReady ? 'bg-amber-100 opacity-100' : 'opacity-0'}"
 >
 	<main class="container flex flex-col min-h-screen px-2 mx-auto font-poppins">
 		<Navbar />
