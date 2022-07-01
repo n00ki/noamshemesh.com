@@ -2,16 +2,15 @@
 	import { browser } from '$app/env';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import { defaultTheme, localStorageDataReady } from '$lib/stores.js';
 
-	const DEFAULT_THEME = 'light';
+	const DEFAULT_THEME = $defaultTheme;
 	let preferredTheme;
 
 	onMount(() => {
-		// if (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-		// 	preferredTheme = 'dark';
-		// } else {
 		preferredTheme = localStorage.getItem('theme') || DEFAULT_THEME;
-		// }
+		setPrefferedTheme(preferredTheme);
+		$localStorageDataReady = true;
 	});
 
 	function setPrefferedTheme(theme) {
